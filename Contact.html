@@ -56,7 +56,7 @@
               <br>
               <form>
                 <input type="email" name="email" placeholder="Your email">  <!-- Button trigger modal -->
-                <button type="submit" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal" onload="mymessage()" >
+                <button type="submit" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal" onload="mymessage()">
                   SIGN UP
                 </button>
               </form>
@@ -88,10 +88,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <script>
+  const myCarousel = document.querySelectorAll('.carousel-inner');
+
+  #mycarousel.forEach(myCarousel => {
+    #myCarousel.addEventListener('mouseover', () => {
+      console.log(#myCarousel.childNodes[1].classList)
+      myCarousel.childNodes[1].classList.add('image-blur');
+    });
+
+    #myCarousel.addEventListener('mouseout', () => {
+      console.log(#myCarousel.childNodes[1].classList)
+      #myCarousel.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+<script>
 function mymessage() {
-  alert("Thanks fo signing up!");
+  alert("Thanks for Signing Up!");
 }
 </script>
+</head>
 
 
 </html
