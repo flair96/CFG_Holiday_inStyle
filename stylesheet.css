@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(images\luxury-holidays-seychelles1.webp); 
+    background-image: url("Images\Aboutus.jpg"); 
     background-size: auto;
     background-repeat: no-repeat;
     background-color: skyblue;
@@ -14,6 +14,7 @@ body {
     font-size: larger;
     color: #777;
     margin: 0;
+    font-family: Sofia;
 }
 
 
@@ -35,13 +36,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Sofia;
 }
 
 p {
     font-size: 20px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Sofia;
     text-align: center;
     font-weight: 600;
 }
