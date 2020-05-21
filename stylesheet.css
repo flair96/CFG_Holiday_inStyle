@@ -1,0 +1,155 @@
+html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    background-image: url(images/luxury-holidays-seychelles1.webp); 
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+    background-position: center;
+    text-align: center;
+    font: 400 15px/1.8 Lato, sans-serif;
+    font-size: larger;
+    color: #777;
+    margin: 0;
+}
+
+
+/* About Us Page */
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+/* End of About Us Page */
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: brightness(100%); 
+    width: 100%; /* Set width to 100% */
+    max-height: fit-content;
+    margin: auto;
+    display: flex;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+} 
+
+.navbar {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  
+  /* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+  
+  /* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+  
+  /* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0073a8;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-instagram {
+    background: rgb(240, 75, 69);
+    color: white;
+}
+
+.social li {
+    font-size: 150%;
+}
+
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%)
+
+}
+  
